@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 10px;
+        margin: 30px;
+        font-size: 20px;
+      }
+
+      .box {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <b><h1>SMUMC</h1></b>
+    <div class="container">
+      <div class="box">PROJECT</div>
+      <div class="box">MEMBERS</div>
+      <div class="box">NOTICE</div>
+    </div>
+  </body>
+</html>
