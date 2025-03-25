@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .container1 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .container2 {
+        display: grid;
+        height: 200px;
+        grid-template-columns: 1fr;
+        justify-items: end;
+      }
+
+      #header {
+        align-items: center;
+        color: white;
+        width: 25%;
+        height: 50px;
+        background-color: navy;
+        display: flex;
+        justify-content: center;
+      }
+
+      #menu {
+        align-items: center;
+        color: white;
+        width: 75%;
+        height: 50px;
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+      }
+
+      #hero {
+        color: white;
+        height: 200px;
+        background-color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #main {
+        color: white;
+        height: 200px;
+        width: 50%;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #image {
+        height: 100px;
+        width: 400%;
+        background-color: greenyellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #extra {
+        height: 100px;
+        width: 400%;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #banner {
+        height: 60px;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <div id="header">header</div>
+      <div id="menu">menu</div>
+    </div>
+
+    <div id="hero">hero</div>
+
+    <div class="container1">
+      <div id="main">main</div>
+      <div class="container2">
+        <div id="image">image</div>
+        <div id="extra">extra</div>
+      </div>
+    </div>
+
+    <div id="banner">banner</div>
+  </body>
+</html>
