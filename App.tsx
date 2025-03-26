@@ -1,13 +1,10 @@
+import ContexPage from "./2nd/contextPage";
 import "./App.css";
-import Todo from "./components/Todo.tsx";
-import { TodoProvider } from "./context/TodoContext.tsx";
 
-function App(): Element {
+export default function App() {
   return (
-    <TodoProvider>
-      <Todo />
-    </TodoProvider>
+    <>
+      <ContexPage />
+    </>
   );
 }
-
-export default App;
